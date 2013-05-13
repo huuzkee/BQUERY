@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="TARGETDIR">
+            <Directory Id="bin" Name="bin">
+                <Component Id="PBDWLIB.dll" Guid="{B02DBD05-33B0-4FF6-AF10-404A5F785EE2}">
+                    <File Id="PBDWLIB.dll" KeyPath="yes" Source="bin\PBDWLIB.dll" />
+                </Component>
+                <Component Id="PBDWLIB.pdb" Guid="{1A6C2823-1B8F-46A7-8425-DE5C57CCFA6F}">
+                    <File Id="PBDWLIB.pdb" KeyPath="yes" Source="bin\PBDWLIB.pdb" />
+                </Component>
+                <Component Id="PBDWLIB.xml" Guid="{16DCD6FA-79D5-4FAF-8E62-80E04CD276D3}">
+                    <File Id="PBDWLIB.xml" KeyPath="yes" Source="bin\PBDWLIB.xml" />
+                </Component>
+                <Component Id="pbquery.pbd" Guid="{6733D911-6CC6-4CA5-BB3D-E3E11B7E8DFD}">
+                    <File Id="pbquery.pbd" KeyPath="yes" Source="bin\pbquery.pbd" />
+                </Component>
+                <Component Id="PBQUERYLIB.dll" Guid="{4075E01C-F396-4B3F-8FCD-BB5EF872D715}">
+                    <File Id="PBQUERYLIB.dll" KeyPath="yes" Source="bin\PBQUERYLIB.dll" />
+                </Component>
+                <Component Id="PBQUERYLIB.pdb" Guid="{73D9C7CA-4BED-419B-BA37-D13C9D05AF8C}">
+                    <File Id="PBQUERYLIB.pdb" KeyPath="yes" Source="bin\PBQUERYLIB.pdb" />
+                </Component>
+                <Component Id="PBQUERYLIB.xml" Guid="{F8F0A5F2-511F-4F55-B675-0200BB68C77E}">
+                    <File Id="PBQUERYLIB.xml" KeyPath="yes" Source="bin\PBQUERYLIB.xml" />
+                </Component>
+            </Directory>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="MyGroup">
+            <ComponentRef Id="PBDWLIB.dll" />
+            <ComponentRef Id="PBDWLIB.pdb" />
+            <ComponentRef Id="PBDWLIB.xml" />
+            <ComponentRef Id="pbquery.pbd" />
+            <ComponentRef Id="PBQUERYLIB.dll" />
+            <ComponentRef Id="PBQUERYLIB.pdb" />
+            <ComponentRef Id="PBQUERYLIB.xml" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>

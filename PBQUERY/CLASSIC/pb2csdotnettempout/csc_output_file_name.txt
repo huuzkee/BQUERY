@@ -1,0 +1,12 @@
+Microsoft (R) Visual C# Compiler version 4.0.30319.17929
+for Microsoft (R) .NET Framework 4.5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+pbvalue.clone(Cpbvalue.)(6,3): warning CS1690: Accessing a member on 'c__pbvalue.decval' may cause a runtime exception because it is a field of a marshal-by-reference class
+pbvalue(3,16): (Location of symbol related to previous warning)
+pbvalue.clone(Cpbvalue.)(8,3): warning CS1690: Accessing a member on 'c__pbvalue.numval' may cause a runtime exception because it is a field of a marshal-by-reference class
+pbvalue(3,16): (Location of symbol related to previous warning)
+pbvalue.copy(BRCpbvalue.)(4,3): warning CS1690: Accessing a member on 'c__pbvalue.decval' may cause a runtime exception because it is a field of a marshal-by-reference class
+pbvalue(3,16): (Location of symbol related to previous warning)
+pbvalue.copy(BRCpbvalue.)(6,3): warning CS1690: Accessing a member on 'c__pbvalue.numval' may cause a runtime exception because it is a field of a marshal-by-reference class
+pbvalue(3,16): (Location of symbol related to previous warning)

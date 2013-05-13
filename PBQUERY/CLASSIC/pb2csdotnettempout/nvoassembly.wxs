@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Wix xmlns='http://schemas.microsoft.com/wix/2006/wi'>
+  <Product Name='PBQUERYLIB.dll' Id='883AC80D-432D-4826-96F0-E12BEFD5AC95'
+    Language='1031' Codepage='1252' Version='1.0.0.1' Manufacturer='Sybase'>
+
+    <Package Id='*' Keywords='Installer'
+      Description="Sybase PBQUERYLIB.dll 1.0.0.1 Installer"
+      InstallerVersion='100' Languages='1031' Compressed='yes' SummaryCodepage='1252' />
+
+    <Media Id='1' Cabinet='Sample.cab' EmbedCab='yes' DiskPrompt="CD-ROM #1" />
+    <Property Id='DiskPrompt' Value="Sybase PBQUERYLIB.dll 1.0.0.1 [1]" />
+
+    <Directory Id='TARGETDIR' Name='SourceDir'>
+
+    </Directory>
+
+    <Feature Id='Complete' Title='PBQUERYLIB.dll 1.0.0.1' Description='The complete package.'
+      Display='expand' Level='1' ConfigurableDirectory='TARGETDIR'>
+        <ComponentGroupRef Id="MyGroup" />
+    </Feature>
+
+    <Property Id="WIXUI_INSTALLDIR" Value="TARGETDIR" />
+    <UIRef Id="WixUI_InstallDir" />
+    <UIRef Id="WixUI_ErrorProgressText" />
+
+  </Product>
+</Wix>

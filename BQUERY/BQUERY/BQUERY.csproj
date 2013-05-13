@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{609B518B-43A9-416E-BCCA-CE7297CDC3B2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BQUERY</RootNamespace>
+    <AssemblyName>BQUERY</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile2</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="eBuildScript.cs" />
+    <Compile Include="eFieldStatus.cs" />
+    <Compile Include="eFieldType.cs" />
+    <Compile Include="eFileFormat.cs" />
+    <Compile Include="eQueryComposite.cs" />
+    <Compile Include="eQueryDocumentType.cs" />
+    <Compile Include="eQueryElements.cs" />
+    <Compile Include="eRecordBuffer.cs" />
+    <Compile Include="eReportBand.cs" />
+    <Compile Include="eTemplateBand.cs" />
+    <Compile Include="eTextEncoding.cs" />
+    <Compile Include="eTextFileType.cs" />
+    <Compile Include="IBQueryFramework.cs" />
+    <Compile Include="IChild.cs" />
+    <Compile Include="IEvent.cs" />
+    <Compile Include="IEventAttributeIterator.cs" />
+    <Compile Include="IFieldValue.cs" />
+    <Compile Include="IFramework.cs" />
+    <Compile Include="IHostManager.cs" />
+    <Compile Include="ILibrary.cs" />
+    <Compile Include="IHost.cs" />
+    <Compile Include="IQBModifyTemplate.cs" />
+    <Compile Include="IQBTemplateRepository.cs" />
+    <Compile Include="IQBuild.cs" />
+    <Compile Include="IQBuildHost.cs" />
+    <Compile Include="IQBuildTemplate.cs" />
+    <Compile Include="IQCJoin.cs" />
+    <Compile Include="IQComposite.cs" />
+    <Compile Include="IQCTree.cs" />
+    <Compile Include="IQCUnion.cs" />
+    <Compile Include="IQDAudio.cs" />
+    <Compile Include="IQDBinary.cs" />
+    <Compile Include="IQDDirectory.cs" />
+    <Compile Include="IQDImage.cs" />
+    <Compile Include="IQDocument.cs" />
+    <Compile Include="IQDText.cs" />
+    <Compile Include="IQDVideo.cs" />
+    <Compile Include="IQEvents.cs" />
+    <Compile Include="IQImplementation.cs" />
+    <Compile Include="IQImplementationAccess.cs" />
+    <Compile Include="IQLAggregate.cs" />
+    <Compile Include="IQLink.cs" />
+    <Compile Include="IQLProject.cs" />
+    <Compile Include="IQLReference.cs" />
+    <Compile Include="IQRBanded.cs" />
+    <Compile Include="IQReport.cs" />
+    <Compile Include="IQReportComposite.cs" />
+    <Compile Include="IQReportLookup.cs" />
+    <Compile Include="IQReportMetadata.cs" />
+    <Compile Include="IQReportNested.cs" />
+    <Compile Include="IQRFormat.cs" />
+    <Compile Include="IQRGroup.cs" />
+    <Compile Include="IQRPrint.cs" />
+    <Compile Include="IQSCancel.cs" />
+    <Compile Include="IQSConnect.cs" />
+    <Compile Include="IQService.cs" />
+    <Compile Include="IQSRBindParameters.cs" />
+    <Compile Include="IQSRefresh.cs" />
+    <Compile Include="IQSRequest.cs" />
+    <Compile Include="IQSSupport.cs" />
+    <Compile Include="IQSSupportREST.cs" />
+    <Compile Include="IQSSupportSQL.cs" />
+    <Compile Include="IQSSupportWebService.cs" />
+    <Compile Include="IQSUpdate.cs" />
+    <Compile Include="IQTable.cs" />
+    <Compile Include="IQTData.cs" />
+    <Compile Include="IQTDBindCollection.cs" />
+    <Compile Include="IQTDBinding.cs" />
+    <Compile Include="IQTDBindObject.cs" />
+    <Compile Include="IQTDCompletionCheck.cs" />
+    <Compile Include="IQTDCopy.cs" />
+    <Compile Include="IQTDDictionary.cs" />
+    <Compile Include="IQTDFilter.cs" />
+    <Compile Include="IQTDGrid.cs" />
+    <Compile Include="IQTDCheckModification.cs" />
+    <Compile Include="IQTDMove.cs" />
+    <Compile Include="IQTDNavigate.cs" />
+    <Compile Include="IQTDSearch.cs" />
+    <Compile Include="IQTDSort.cs" />
+    <Compile Include="IQTDTruncate.cs" />
+    <Compile Include="IQTDValidate.cs" />
+    <Compile Include="IQTMetadata.cs" />
+    <Compile Include="IQTSExport.cs" />
+    <Compile Include="IQTSImport.cs" />
+    <Compile Include="IQTSMap.cs" />
+    <Compile Include="IQTSMapFormat.cs" />
+    <Compile Include="IQTSMapObject.cs" />
+    <Compile Include="IQTSMapQuery.cs" />
+    <Compile Include="IQTSObservable.cs" />
+    <Compile Include="IQTSObserver.cs" />
+    <Compile Include="IQTSources.cs" />
+    <Compile Include="IQTSRemote.cs" />
+    <Compile Include="IQTSShare.cs" />
+    <Compile Include="IQXExpressionSupport.cs" />
+    <Compile Include="ITemplate.cs" />
+    <Compile Include="IQueryArgument.cs" />
+    <Compile Include="IQueryArgumentIterator.cs" />
+    <Compile Include="IQueryImplementation.cs" />
+    <Compile Include="IRecordBinding.cs" />
+    <Compile Include="ISubmitHelper.cs" />
+    <Compile Include="ISubsciberList.cs" />
+    <Compile Include="ISubscriptionManager.cs" />
+    <Compile Include="ITemplateIterator.cs" />
+    <Compile Include="ILibraryManager.cs" />
+    <Compile Include="ILibraryIterator.cs" />
+    <Compile Include="IQueryManager.cs" />
+    <Compile Include="IRecordNavigator.cs" />
+    <Compile Include="IConnection.cs" />
+    <Compile Include="INotify.cs" />
+    <Compile Include="IParameterManager.cs" />
+    <Compile Include="IDiagnosticManager.cs" />
+    <Compile Include="ISubscribe.cs" />
+    <Compile Include="ISyntaxGenerator.cs" />
+    <Compile Include="IQuery.cs" />
+    <Compile Include="IFieldNavigator.cs" />
+    <Compile Include="ITemplateManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
