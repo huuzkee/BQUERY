@@ -37,7 +37,7 @@ namespace testPBQUERY
             conn.open();
             //Console.WriteLine(conn.getsqlcode());
             //Console.WriteLine("SQLERRTEXT:", conn.getsqlerrtext(), " TEST ");
-            Console.WriteLine(" TEST 01 ");
+            Console.WriteLine(" TEST 01 *****#####");
             dso.setconnection(conn);
             dso.settransobject(conn);
             sqlexec.setconnection(conn);
