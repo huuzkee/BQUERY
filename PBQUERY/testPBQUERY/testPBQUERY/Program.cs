@@ -42,8 +42,8 @@ namespace testPBQUERY
 
             sqlexec.setconnection(conn);
             sqlexec.sqlexec("CREATE TABLE TEST01 (KCOL varchar(28) NOT NULL DEFAULT NULL, Name varchar(150) NOT NULL DEFAULT NULL , PRIMARY KEY (KCOL)) ;");
-            Console.WriteLine("SQLCODE:", sqlexec.getresultcode());
-            Console.WriteLine("SQLCODE:", sqlexec.getresultmessage());
+            Console.WriteLine(sqlexec.getresultcode());
+            Console.WriteLine( sqlexec.getresultmessage());
             conn.setsqlcode(1);
             conn.setsqlerrtext("TEST");
             Console.WriteLine("SQLCODE:", conn.getsqlcode(), " TEST ");
