@@ -39,9 +39,8 @@
     <StartupObject>testPBQUERY.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="pbquery, Version=1.0.0.1, Culture=neutral, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\CLASSIC\pb2csdotnettempout\bin\pbquery.dll</HintPath>
+    <Reference Include="PBQUERYLIB">
+      <HintPath>..\..\CLASSIC\pb2csdotnettempout\install\PBQUERYLIB.dll</HintPath>
     </Reference>
     <Reference Include="presentationcore" />
     <Reference Include="System" />

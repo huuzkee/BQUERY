@@ -2,7 +2,7 @@
 using System.Linq;
 //using BQUERY.IMP.PBQUERY;
 //using BQUERY;
-using pbquerylib;
+using PBQUERYLIB;
 
 namespace testPBQUERY
 {
@@ -33,23 +33,28 @@ namespace testPBQUERY
             pbsqlexecute sqlexec = new pbsqlexecute();
             conn.initialise();
             conn.setdbms( "ODBC");
-            conn.setdbparm("ConnectString='DSN=PBQUERY;UID=DBA;PWD=sql'");
+            conn.setdbparm("ConnectString='DSN=PBQUERY;UID=dba;PWD=sql'");
             conn.open();
-            Console.WriteLine(conn.getsqlcode());
-            Console.WriteLine("SQLERRTEXT:", conn.getsqlerrtext(), " TEST ");
+            //Console.WriteLine(conn.getsqlcode());
+            //Console.WriteLine("SQLERRTEXT:", conn.getsqlerrtext(), " TEST ");
+            Console.WriteLine(" TEST 01 ");
             dso.setconnection(conn);
             dso.settransobject(conn);
-
             sqlexec.setconnection(conn);
-            sqlexec.sqlexec("CREATE TABLE TEST01 (KCOL varchar(28) NOT NULL DEFAULT NULL, Name varchar(150) NOT NULL DEFAULT NULL , PRIMARY KEY (KCOL)) ;");
+            //sqlexec.sqlexec("CREATE TABLE TEST01 (KCOL varchar(28) NOT NULL DEFAULT NULL, Name varchar(150) NOT NULL DEFAULT NULL , PRIMARY KEY (KCOL) ");
+            sqlexec.sqlexec("SELECT * FROM test");
+            Console.WriteLine(" TEST 02 ");
             Console.WriteLine(sqlexec.getresultcode());
             Console.WriteLine( sqlexec.getresultmessage());
+            Console.WriteLine(" TEST 03 ");
             conn.setsqlcode(1);
             conn.setsqlerrtext("TEST");
             Console.WriteLine("SQLCODE:", conn.getsqlcode(), " TEST ");
             Console.WriteLine("SQLERRTEXT:", conn.getsqlerrtext(), " TEST ");
             conn.committransaction();
             conn.close();
+            Console.ReadLine();
+
 
 
             //connectionpb conn = new connectionpb();

@@ -8,7 +8,7 @@ namespace BQUERY.IMP.PBQUERY
     {
 
         //connectionpb _conn ;
-        protected querypb _pbq ;
+        protected pbdatastore _pbq ;
    
 
         new bool isTable

@@ -5,5 +5,5 @@ Save Format v3.0(19990112)
  0 "pbquery.pbt";
  1 "genapp.pbt";
 @end;
-DefaultTarget "pbquery.pbt";
-DefaultRemoteTarget "pbquery.pbt";
+DefaultTarget "genapp.pbt";
+DefaultRemoteTarget "genapp.pbt";
