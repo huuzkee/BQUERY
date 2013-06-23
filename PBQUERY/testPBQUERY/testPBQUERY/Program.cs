@@ -41,6 +41,7 @@ namespace testPBQUERY
             dso.setconnection(conn);
             dso.settransobject(conn);
             sqlexec.setconnection(conn);
+            sqlexec.sqlexec("DROP TABLE TEST01 ; ");
             sqlexec.sqlexec("CREATE TABLE TEST01 (KCOL varchar(28) NOT NULL DEFAULT NULL, Name varchar(150) NOT NULL DEFAULT NULL , PRIMARY KEY (KCOL)); ");
             //sqlexec.sqlexec("SELECT * FROM test");
             Console.WriteLine(" TEST 02 ");
