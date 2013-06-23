@@ -20,15 +20,15 @@ rem ************************************************************************
 reg import "%PBNET_HOME%\bin\PBExceptionTrace.reg"
 
 
-xcopy /D /Y "d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbd" bin\
+xcopy /D /Y "c:\zz_github\bquery\pbquery\classic\pbquery.pbd" bin\
 
-xcopy /D /Y "d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbd" install\
+xcopy /D /Y "c:\zz_github\bquery\pbquery\classic\pbquery.pbd" install\
 
 
 if "%~2" == "" (
-%NET_FRAMEWORK_PB$PBVERSION$%\csc /t:library /debug /nowarn:1591 /doc:"bin\pbquery.xml"   /platform:x86  "/r:%PBNET_HOME%\bin\Sybase.PowerBuilder.Core.dll;%PBNET_HOME%\bin\Sybase.PowerBuilder.Interop.dll;%PBNET_HOME%\bin\Sybase.PowerBuilder.Common.dll;%PBNET_HOME%\bin\Sybase.PowerBuilder.Win.dll;%PBNET_HOME%\bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;%PBNET_HOME%\bin\com.sybase.ejb.net.dll;%PBNET_HOME%\bin\com.sybase.iiop.net.dll"  /out:"bin\pbquery.dll" *.cs
+%NET_FRAMEWORK_PB$PBVERSION$%\csc /t:library /debug /nowarn:1591 /doc:"bin\PBQUERYLIB.xml"   /platform:x86  "/r:%PBNET_HOME%\bin\Sybase.PowerBuilder.Core.dll;%PBNET_HOME%\bin\Sybase.PowerBuilder.Interop.dll;%PBNET_HOME%\bin\Sybase.PowerBuilder.Common.dll;%PBNET_HOME%\bin\Sybase.PowerBuilder.Win.dll;%PBNET_HOME%\bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;%PBNET_HOME%\bin\com.sybase.ejb.net.dll;%PBNET_HOME%\bin\com.sybase.iiop.net.dll"  /out:"bin\PBQUERYLIB.dll" *.cs
 ) else (
-%NET_FRAMEWORK_PB$PBVERSION$%\csc /t:library /debug /nowarn:1591 /doc:"bin\pbquery.xml"   /platform:x86  "/r:%PBNET_HOME%\bin\Sybase.PowerBuilder.Core.dll;%PBNET_HOME%\bin\Sybase.PowerBuilder.Interop.dll;%PBNET_HOME%\bin\Sybase.PowerBuilder.Common.dll;%PBNET_HOME%\bin\Sybase.PowerBuilder.Win.dll;%PBNET_HOME%\bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;%PBNET_HOME%\bin\com.sybase.ejb.net.dll;%PBNET_HOME%\bin\com.sybase.iiop.net.dll"  /out:"bin\pbquery.dll" *.cs > "%~2"
+%NET_FRAMEWORK_PB$PBVERSION$%\csc /t:library /debug /nowarn:1591 /doc:"bin\PBQUERYLIB.xml"   /platform:x86  "/r:%PBNET_HOME%\bin\Sybase.PowerBuilder.Core.dll;%PBNET_HOME%\bin\Sybase.PowerBuilder.Interop.dll;%PBNET_HOME%\bin\Sybase.PowerBuilder.Common.dll;%PBNET_HOME%\bin\Sybase.PowerBuilder.Win.dll;%PBNET_HOME%\bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;%PBNET_HOME%\bin\com.sybase.ejb.net.dll;%PBNET_HOME%\bin\com.sybase.iiop.net.dll"  /out:"bin\PBQUERYLIB.dll" *.cs > "%~2"
 )
 
 @if errorlevel 1 (goto builderror) else echo Build Succeeded.
@@ -84,15 +84,15 @@ xcopy /D /Y "%PBNET_HOME%\bin\Sybase.PowerBuilder.DataWindow.Excel12.dll" bin\
 reg import "%PBNET_HOME%\bin\PBExceptionTrace.reg"
 
 
-xcopy /D /Y "d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbd" bin\
+xcopy /D /Y "c:\zz_github\bquery\pbquery\classic\pbquery.pbd" bin\
 
-xcopy /D /Y "d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbd" install\
+xcopy /D /Y "c:\zz_github\bquery\pbquery\classic\pbquery.pbd" install\
 
 
 if "%~2" == "" (
-%NET_FRAMEWORK_PB$PBVERSION$%\csc /t:library /debug /nowarn:1591 /doc:"bin\pbquery.xml"   /platform:x86  "/r:bin\Sybase.PowerBuilder.Core.dll;bin\Sybase.PowerBuilder.Interop.dll;bin\Sybase.PowerBuilder.Common.dll;bin\Sybase.PowerBuilder.Win.dll;bin\Sybase.PowerBuilder.DataWindow.Win.dll;bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;bin\com.sybase.ejb.net.dll;bin\com.sybase.iiop.net.dll"  /out:"bin\pbquery.dll" *.cs
+%NET_FRAMEWORK_PB$PBVERSION$%\csc /t:library /debug /nowarn:1591 /doc:"bin\PBQUERYLIB.xml"   /platform:x86  "/r:bin\Sybase.PowerBuilder.Core.dll;bin\Sybase.PowerBuilder.Interop.dll;bin\Sybase.PowerBuilder.Common.dll;bin\Sybase.PowerBuilder.Win.dll;bin\Sybase.PowerBuilder.DataWindow.Win.dll;bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;bin\com.sybase.ejb.net.dll;bin\com.sybase.iiop.net.dll"  /out:"bin\PBQUERYLIB.dll" *.cs
 ) else (
-%NET_FRAMEWORK_PB$PBVERSION$%\csc /t:library /debug /nowarn:1591 /doc:"bin\pbquery.xml"   /platform:x86  "/r:bin\Sybase.PowerBuilder.Core.dll;bin\Sybase.PowerBuilder.Interop.dll;bin\Sybase.PowerBuilder.Common.dll;bin\Sybase.PowerBuilder.Win.dll;bin\Sybase.PowerBuilder.DataWindow.Win.dll;bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;bin\com.sybase.ejb.net.dll;bin\com.sybase.iiop.net.dll"  /out:"bin\pbquery.dll" *.cs > "%~2"
+%NET_FRAMEWORK_PB$PBVERSION$%\csc /t:library /debug /nowarn:1591 /doc:"bin\PBQUERYLIB.xml"   /platform:x86  "/r:bin\Sybase.PowerBuilder.Core.dll;bin\Sybase.PowerBuilder.Interop.dll;bin\Sybase.PowerBuilder.Common.dll;bin\Sybase.PowerBuilder.Win.dll;bin\Sybase.PowerBuilder.DataWindow.Win.dll;bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;bin\com.sybase.ejb.net.dll;bin\com.sybase.iiop.net.dll"  /out:"bin\PBQUERYLIB.dll" *.cs > "%~2"
 )
 
 @if errorlevel 1 (goto builderror) else echo Build Succeeded.
@@ -114,6 +114,6 @@ goto errorend
 exit /b 1
 
 :end
-xcopy /D /Y "bin\pbquery.dll" install\
+xcopy /D /Y "bin\PBQUERYLIB.dll" install\
 
 endlocal

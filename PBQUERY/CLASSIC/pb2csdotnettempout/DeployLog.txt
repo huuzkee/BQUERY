@@ -1,7 +1,7 @@
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>if "" == "" set NET_FRAMEWORK125=C:\Windows\Microsoft.NET\Framework\v4.0.30319 
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>if "" == "" set NET_FRAMEWORK125=C:\Windows\Microsoft.NET\Framework\v4.0.30319 
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc
 Microsoft (R) Visual C# Compiler version 4.0.30319.17929
 for Microsoft (R) .NET Framework 4.5
 Copyright (C) Microsoft Corporation. All rights reserved.
@@ -9,15 +9,15 @@ Copyright (C) Microsoft Corporation. All rights reserved.
 warning CS2008: No source files specified
 error CS1562: Outputs without source must have the /out option specified
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>if errorlevel 9009 exit 3 
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>if errorlevel 9009 exit 3 
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>setlocal
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>setlocal
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>if exist "D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout\*.cs" del "D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout\*.cs" 
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>if exist "C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout\*.cs" del "C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout\*.cs" 
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>rename "D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout\AssemblyInfo.bak" "AssemblyInfo.cs" 
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>rename "C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout\AssemblyInfo.bak" "AssemblyInfo.cs" 
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>"C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\pb2cs" @"D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout\projectinfo.txt" 
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>"C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\pb2cs" @"C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout\projectinfo.txt" 
 pbconnection,pbconnection,close:B,close,,committransaction:B,committransaction,,getdatabase:S,getdatabase,,getdbms:S,getdbms,,getdbparm:S,getdbparm,,getdbpass:S,getdbpass,,getlock:S,getlock,,getlogid:S,getlogid,,getlogpass:S,getlogpass,,getservername:S,getservername,,getsqlcode:L,getsqlcode,,getsqldbcode:L,getsqldbcode,,getsqlerrtext:S,getsqlerrtext,,getsqlnrows:L,getsqlnrows,,getsqlreturndata:S,getsqlreturndata,,getuserid:S,getuserid,,initialise:B,initialise,,open:B,open,,rollbacktransaction:B,rollbacktransaction,,setdatabase:BS,setdatabase,,setdbms:BS,setdbms,,setdbparm:BS,setdbparm,,setdbpass:BS,setdbpass,,setlock:BS,setlock,,setlogid:BS,setlogid,,setlogpass:BS,setlogpass,,setservername:BS,setservername,,setsqlcode:BL,setsqlcode,,setsqldbcode:BL,setsqldbcode,,setsqlerrtext:BS,setsqlerrtext,,setsqlnrows:BL,setsqlnrows,,setsqlreturndata:BS,setsqlreturndata,,setuserid:BS,setuserid,,share:BCpbconnection.,share,,
 pbconstant,pbconstant,border_box:L,border_box,,border_lowered:L,border_lowered,,border_noborder:L,border_noborder,,border_raised:L,border_raised,,border_resizeborder:L,border_resizeborder,,border_shadowbox:L,border_shadowbox,,border_underline:L,border_underline,,dwbuffer_delete:L,dwbuffer_delete,,dwbuffer_filter:L,dwbuffer_filter,,dwbuffer_primary:L,dwbuffer_primary,,dwitemstatus_datamodified:L,dwitemstatus_datamodified,,dwitemstatus_new:L,dwitemstatus_new,,dwitemstatus_notmodified:L,dwitemstatus_notmodified,,encoding_ansi:L,encoding_ansi,,encoding_utf16be:L,encoding_utf16be,,encoding_utf16le:L,encoding_utf16le,,encoding_utf8:L,encoding_utf8,,filetype_doc:L,filetype_doc,,filetype_html:L,filetype_html,,filetype_richtext:L,filetype_richtext,,filetype_text:L,filetype_text,,parmtype_typeboolean:L,parmtype_typeboolean,,parmtype_typebyte:L,parmtype_typebyte,,parmtype_typedate:L,parmtype_typedate,,parmtype_typedatetime:L,parmtype_typedatetime,,parmtype_typedecimal:L,parmtype_typedecimal,,parmtype_typedouble:L,parmtype_typedouble,,parmtype_typeinteger:L,parmtype_typeinteger,,parmtype_typelong:L,parmtype_typelong,,parmtype_typelonglong:L,parmtype_typelonglong,,parmtype_typereal:L,parmtype_typereal,,parmtype_typestring:L,parmtype_typestring,,parmtype_typetime:L,parmtype_typetime,,parmtype_typeuint:L,parmtype_typeuint,,parmtype_typeulong:L,parmtype_typeulong,,parmtype_typeunknown:L,parmtype_typeunknown,,saveas_clipboard:L,saveas_clipboard,,saveas_csv:L,saveas_csv,,saveas_dbase2:L,saveas_dbase2,,saveas_dbase3:L,saveas_dbase3,,saveas_dif:L,saveas_dif,,saveas_emf:L,saveas_emf,,saveas_excel:L,saveas_excel,,saveas_excel8:L,saveas_excel8,,saveas_htmltable:L,saveas_htmltable,,saveas_pdf:L,saveas_pdf,,saveas_psreport:L,saveas_psreport,,saveas_sqlinsert:L,saveas_sqlinsert,,saveas_sylk:L,saveas_sylk,,saveas_text:L,saveas_text,,saveas_wk1:L,saveas_wk1,,saveas_wks:L,saveas_wks,,saveas_wmf:L,saveas_wmf,,saveas_xlsb:L,saveas_xlsb,,saveas_xlsx:L,saveas_xlsx,,saveas_xml:L,saveas_xml,,saveas_xslfo:L,saveas_xslfo,,setborder:LL,setborder,,setdwbuffer:LL,setdwbuffer,,setdwitemstatus:LL,setdwitemstatus,,setencoding:LL,setencoding,,setfiletype:LL,setfiletype,,setparmtype:LL,setparmtype,,setsaveas:LL,setsaveas,,
 pbdatastore,pbdatastore,clearvalues:LI,clearvalues,,clearvalues:LS,clearvalues,,createdw:LSRS,createdw,,dbcancel:L,dbcancel,,deletedcount:L,deletedcount,,deleterow:LL,deleterow,,describedw:SS,describedw,,filter:L,filter,,filteredcount:L,filteredcount,,find:LSLL,find,,findgroupchange:LLI,findgroupchange,,findrequired:LCpbconstant.RLRIRSB,findrequired,,getborderstyle:Cpbconstant.I,getborderstyle,,getborderstyle:Cpbconstant.S,getborderstyle,,getchanges:LRO,getchanges,,getchild:LSRCpbdatawindowchild.,getchild,,getconnection:Cpbconnection.,getconnection,,getdataobject:S,getdataobject,,getformat:SI,getformat,,getformat:SS,getformat,,getfullstate:LO,getfullstate,,getitemdate:WLICpbconstant.B,getitemdate,,getitemdate:WLSCpbconstant.B,getitemdate,,getitemdatetime:WLICpbconstant.B,getitemdatetime,,getitemdatetime:WLSCpbconstant.B,getitemdatetime,,getitemdecimal:MLICpbconstant.B,getitemdecimal,,getitemdecimal:MLSCpbconstant.B,getitemdecimal,,getitemformattedstring:SLICpbconstant.B,getitemformattedstring,,getitemformattedstring:SLSCpbconstant.B,getitemformattedstring,,getitemnumber:DLICpbconstant.B,getitemnumber,,getitemnumber:DLSCpbconstant.B,getitemnumber,,getitemstatus:Cpbconstant.LICpbconstant.,getitemstatus,,getitemstatus:Cpbconstant.LSCpbconstant.,getitemstatus,,getitemstring:SLICpbconstant.B,getitemstring,,getitemstring:SLSCpbconstant.B,getitemstring,,getitemtime:WLICpbconstant.B,getitemtime,,getitemtime:WLSCpbconstant.B,getitemtime,,getitemunformattedstring:SLICpbconstant.B,getitemunformattedstring,,getitemunformattedstring:SLSCpbconstant.B,getitemunformattedstring,,getnextmodified:LLCpbconstant.,getnextmodified,,getrow:L,getrow,,getrowfromrowid:LLCpbconstant.,getrowfromrowid,,getrowidfromrow:LLCpbconstant.,getrowidfromrow,,getsqlselect:S,getsqlselect,,getvalidate:SI,getvalidate,,getvalidate:SS,getvalidate,,getvalue:SII,getvalue,,getvalue:SSI,getvalue,,groupcalc:L,groupcalc,,importfile:LCpbconstant.SLLLLL,importfile,,importstring:LCpbconstant.SLLLLL,importstring,,insertrow:LL,insertrow,,modifiedcount:L,modifiedcount,,modify:SS,modify,,print:L,print,,print:LB,print,,print:LBB,print,,printcancel:L,printcancel,,reselectrow:LL,reselectrow,,resetupdate:L,resetupdate,,retrieve:LA[],retrieve,,rowcount:L,rowcount,,rowscopy:LLLCpbconstant.Cpbdatastore.LCpbconstant.,rowscopy,,rowscopy:LLLCpbconstant.Cpbdatawindow.LCpbconstant.,rowscopy,,rowscopy:LLLCpbconstant.Cpbdatawindowchild.LCpbconstant.,rowscopy,,rowsdiscard:LLLCpbconstant.,rowsdiscard,,rowsmove:LLLCpbconstant.Cpbdatastore.LCpbconstant.,rowsmove,,rowsmove:LLLCpbconstant.Cpbdatawindow.LCpbconstant.,rowsmove,,rowsmove:LLLCpbconstant.Cpbdatawindowchild.LCpbconstant.,rowsmove,,saveas:LSCpbconstant.BCpbconstant.,saveas,,saveasascii:LSSSSB,saveasascii,,saveasformattedtext:LSCpbconstant.SSSB,saveasformattedtext,,setborderstyle:LICpbconstant.,setborderstyle,,setborderstyle:LSCpbconstant.,setborderstyle,,setconnection:BCpbconnection.,setconnection,,setdataobject:LS,setdataobject,,setdetailheight:LLLL,setdetailheight,,setfilter:LS,setfilter,,setformat:LIS,setformat,,setformat:LSS,setformat,,setfullstate:LO,setfullstate,,setitem:LLIA,setitem,,setitem:LLSA,setitem,,setitemstatus:LLICpbconstant.Cpbconstant.,setitemstatus,,setitemstatus:LLSCpbconstant.Cpbconstant.,setitemstatus,,setposition:LSSB,setposition,,setsort:LS,setsort,,setsqlpreview:LS,setsqlpreview,,setsqlselect:LS,setsqlselect,,settransobject:LCpbconnection.,settransobject,,setvalidate:LIS,setvalidate,,setvalidate:LSS,setvalidate,,setvalue:LIIS,setvalue,,setvalue:LSIS,setvalue,,sharedata:LCpbdatastore.,sharedata,,sharedata:LCpbdatawindow.,sharedata,,sharedata:LCpbdatawindowchild.,sharedata,,sharedataoff:L,sharedataoff,,sort:L,sort,,updatedw:LBB,updatedw,,
@@ -32,62 +32,62 @@ pbsqlprocedure,pbsqlprocedure,getconnection:Cpbconnection.,getconnection,,getpar
 pbsqlstaging,pbsqlstaging,share:BCpbsqlstaging.,share,,
 pbvalue,pbvalue,clone:Cpbvalue.,clone,,copy:BRCpbvalue.,copy,,getdate:W,getdate,,getdatetime:W,getdatetime,,getdecimal:M,getdecimal,,getnumber:D,getnumber,,getstring:S,getstring,,gettime:W,gettime,,gettype:I,gettype,,getvalue:A,getvalue,,setdate:BW,setdate,,setdatetime:BW,setdatetime,,setdecimal:BM,setdecimal,,setnumber:BD,setnumber,,setstring:BS,setstring,,settime:BW,settime,,
 Type-checking (pass 1) system (system)
-Parsing d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatastore)
-Parsing d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbconstant)
-Parsing d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbquery)
-Parsing d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsql)
-Parsing d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbconnection)
-Parsing d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbvalue)
-Parsing d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlstaging)
-Parsing d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqldescription)
-Parsing d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatawindow)
-Parsing d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatawindowchild)
-Parsing d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlcursor)
-Parsing d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlprocedure)
-Parsing d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlexecute)
-Parsing d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pblibrary)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbconnection)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbconstant)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatastore)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatawindow)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatawindowchild)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pblibrary)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbquery)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsql)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlcursor)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqldescription)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlexecute)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlprocedure)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlstaging)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbvalue)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbconnection)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbconstant)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatastore)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatawindow)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatawindowchild)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pblibrary)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbquery)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsql)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlcursor)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqldescription)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlexecute)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlprocedure)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlstaging)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbvalue)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbconnection)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbconstant)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatastore)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatawindow)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatawindowchild)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pblibrary)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbquery)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsql)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlcursor)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqldescription)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlexecute)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlprocedure)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlstaging)
-Type-checking (pass 1) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbvalue)
+Parsing c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatastore)
+Parsing c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbconstant)
+Parsing c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbquery)
+Parsing c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsql)
+Parsing c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbconnection)
+Parsing c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbvalue)
+Parsing c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlstaging)
+Parsing c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqldescription)
+Parsing c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatawindow)
+Parsing c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatawindowchild)
+Parsing c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlcursor)
+Parsing c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlprocedure)
+Parsing c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlexecute)
+Parsing c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pblibrary)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbconnection)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbconstant)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatastore)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatawindow)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatawindowchild)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pblibrary)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbquery)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsql)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlcursor)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqldescription)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlexecute)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlprocedure)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlstaging)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbvalue)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbconnection)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbconstant)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatastore)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatawindow)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatawindowchild)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pblibrary)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbquery)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsql)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlcursor)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqldescription)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlexecute)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlprocedure)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlstaging)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbvalue)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbconnection)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbconstant)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatastore)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatawindow)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatawindowchild)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pblibrary)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbquery)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsql)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlcursor)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqldescription)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlexecute)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlprocedure)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlstaging)
+Type-checking (pass 1) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbvalue)
 Type-checking prototypes/instance variables(pass 2) 
 Type-checking prototypes/instance variables(pass 2) 
 Type-checking prototypes/instance variables(pass 2) 
@@ -102,62 +102,62 @@ Type-checking prototypes/instance variables(pass 2)
 Type-checking prototypes/instance variables(pass 2) 
 Type-checking prototypes/instance variables(pass 2) 
 Type-checking prototypes/instance variables(pass 2) 
-Type-checking methods(pass 2) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbconnection)
-Type-checking methods(pass 2) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbconstant)
-Type-checking methods(pass 2) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatastore)
-Type-checking methods(pass 2) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatawindow)
-Type-checking methods(pass 2) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatawindowchild)
-Type-checking methods(pass 2) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pblibrary)
-Type-checking methods(pass 2) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbquery)
-Type-checking methods(pass 2) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsql)
-Type-checking methods(pass 2) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlcursor)
-Type-checking methods(pass 2) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqldescription)
-Type-checking methods(pass 2) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlexecute)
-Type-checking methods(pass 2) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlprocedure)
-Type-checking methods(pass 2) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlstaging)
-Type-checking methods(pass 2) d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbvalue)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbquery)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsql)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlstaging)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqldescription)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatawindowchild)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlcursor)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlprocedure)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlexecute)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatawindow)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbconnection)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatastore)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pblibrary)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbvalue)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbconstant)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbquery)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsql)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlstaging)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqldescription)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatawindowchild)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlcursor)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlprocedure)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlexecute)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatawindow)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbconnection)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatastore)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pblibrary)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbvalue)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbconstant)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbquery)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsql)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlstaging)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqldescription)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatawindowchild)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlcursor)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlprocedure)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbsqlexecute)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatawindow)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbconnection)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbdatastore)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pblibrary)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbvalue)
-Emitting d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbl (pbconstant)
+Type-checking methods(pass 2) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbconnection)
+Type-checking methods(pass 2) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbconstant)
+Type-checking methods(pass 2) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatastore)
+Type-checking methods(pass 2) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatawindow)
+Type-checking methods(pass 2) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatawindowchild)
+Type-checking methods(pass 2) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pblibrary)
+Type-checking methods(pass 2) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbquery)
+Type-checking methods(pass 2) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsql)
+Type-checking methods(pass 2) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlcursor)
+Type-checking methods(pass 2) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqldescription)
+Type-checking methods(pass 2) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlexecute)
+Type-checking methods(pass 2) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlprocedure)
+Type-checking methods(pass 2) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlstaging)
+Type-checking methods(pass 2) c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbvalue)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbquery)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatastore)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbconstant)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsql)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbconnection)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbvalue)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlstaging)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqldescription)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatawindow)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatawindowchild)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlcursor)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlprocedure)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlexecute)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pblibrary)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbquery)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatastore)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbconstant)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsql)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbconnection)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbvalue)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlstaging)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqldescription)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatawindow)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatawindowchild)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlcursor)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlprocedure)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlexecute)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pblibrary)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbquery)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatastore)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbconstant)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsql)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbconnection)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbvalue)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlstaging)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqldescription)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatawindow)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbdatawindowchild)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlcursor)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlprocedure)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pbsqlexecute)
+Emitting c:\zz_github\bquery\pbquery\classic\pbquery.pbl (pblibrary)
 
 
 Error Summary : 0 error(s) 
@@ -171,54 +171,54 @@ Warning Summary : 0 warning(s)
 Compile complete -- 0 error(s), 0 warning(s)
 
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>if ERRORLEVEL 1 exit 1 
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>if ERRORLEVEL 1 exit 1 
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>call build.bat c- "D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout\csc_output_file_name.txt" 
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>call build.bat c- "C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout\csc_output_file_name.txt" 
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>setlocal
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>setlocal
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>if "c-" == "" goto usage  
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>if "c-" == "" goto usage  
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>if "C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET" == "" goto sethome 
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>if "C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET" == "" goto sethome 
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>set NET_FRAMEWORK_PB$PBVERSION$=C:\Windows\Microsoft.NET\Framework\v4.0.30319 
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>set NET_FRAMEWORK_PB$PBVERSION$=C:\Windows\Microsoft.NET\Framework\v4.0.30319 
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>md bin 
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>md bin 
 A subdirectory or file bin already exists.
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>md install 
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>md install 
 A subdirectory or file install already exists.
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>if "c-" == "c-" goto notcopy 
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>if "c-" == "c-" goto notcopy 
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>reg import "C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\PBExceptionTrace.reg" 
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>reg import "C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\PBExceptionTrace.reg" 
 ERROR: Error accessing the registry.
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>xcopy /D /Y "d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbd" bin\ 
-D:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbd
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>xcopy /D /Y "c:\zz_github\bquery\pbquery\classic\pbquery.pbd" bin\ 
+C:\zz_github\bquery\pbquery\classic\pbquery.pbd
 1 File(s) copied
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>xcopy /D /Y "d:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbd" install\ 
-D:\aa_github\aa_hivves\bquery\pbquery\classic\pbquery.pbd
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>xcopy /D /Y "c:\zz_github\bquery\pbquery\classic\pbquery.pbd" install\ 
+C:\zz_github\bquery\pbquery\classic\pbquery.pbd
 1 File(s) copied
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>if "D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout\csc_output_file_name.txt" == "" (C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc /t:library /debug /nowarn:1591 /doc:"bin\pbquery.xml"   /platform:x86  "/r:C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Core.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Interop.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Common.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Win.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\com.sybase.ejb.net.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\com.sybase.iiop.net.dll"  /out:"bin\pbquery.dll" *.cs )  else (C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc /t:library /debug /nowarn:1591 /doc:"bin\pbquery.xml"   /platform:x86  "/r:C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Core.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Interop.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Common.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Win.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\com.sybase.ejb.net.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\com.sybase.iiop.net.dll"  /out:"bin\pbquery.dll" *.cs  1>"D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout\csc_output_file_name.txt" ) 
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>if "C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout\csc_output_file_name.txt" == "" (C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc /t:library /debug /nowarn:1591 /doc:"bin\PBQUERYLIB.xml"   /platform:x86  "/r:C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Core.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Interop.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Common.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Win.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\com.sybase.ejb.net.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\com.sybase.iiop.net.dll"  /out:"bin\PBQUERYLIB.dll" *.cs )  else (C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc /t:library /debug /nowarn:1591 /doc:"bin\PBQUERYLIB.xml"   /platform:x86  "/r:C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Core.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Interop.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Common.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Win.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\com.sybase.ejb.net.dll;C:\Program Files (x86)\Sybase\PowerBuilder 12.5\DotNET\bin\com.sybase.iiop.net.dll"  /out:"bin\PBQUERYLIB.dll" *.cs  1>"C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout\csc_output_file_name.txt" ) 
 Build Succeeded.
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>goto end 
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>goto end 
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>xcopy /D /Y "bin\pbquery.dll" install\ 
-bin\pbquery.dll
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>xcopy /D /Y "bin\PBQUERYLIB.dll" install\ 
+bin\PBQUERYLIB.dll
 1 File(s) copied
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>endlocal
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>endlocal
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>if ERRORLEVEL 1 exit 2 
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>if ERRORLEVEL 1 exit 2 
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>if exist "D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout\*.cs" del "D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout\*.cs" 
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>if exist "C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout\*.cs" del "C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout\*.cs" 
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>goto end 
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>goto end 
 
-D:\AA_GITHUB\AA_HIVVES\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>endlocal
+C:\ZZ_GitHub\BQUERY\PBQUERY\CLASSIC\pb2csdotnettempout>endlocal
 Generating PowerBuilder .NET assemblies succeeded.
 Warning: Cannot copy the log.txt file to the output directory.
